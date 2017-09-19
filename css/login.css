@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+html,body{
+	font-size: 14px;
+	background:rgba(0,0,0,0.8);
+}
+main{
+	width: 350px;
+	height: 200px;
+	background: #fff;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+    border-radius: 5px;
+}
+main > h3{
+	text-align: center;
+	padding: 10px 0;
+	line-height: 30px;
+	font-size: 20px;
+}
+main >.inputEle{
+	box-sizing: border-box;
+	padding: 10px 30px;
+}
+main >.inputEle > input{
+	width: 100%;
+	border: 1px solid #999;
+    padding: 5px 0;
+    outline: none;
+    border-radius: 3px;
+}
+main >.inputEle > input:focus{
+	border: 1px solid #0085d0;
+}
+main >.inputEle > button{
+	width: 100%;
+	background: #0085d0;
+    padding: 5px 0;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 3px;
+}
